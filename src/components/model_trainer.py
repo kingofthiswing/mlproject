@@ -8,6 +8,7 @@ from sklearn.ensemble import (
     RandomForestRegressor,
     GradientBoostingRegressor
 )
+from dataclasses import dataclass
 
 from catboost import CatBoostRegressor
 from sklearn.linear_model import LinearRegression
